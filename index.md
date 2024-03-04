@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[NHS Cancer Waiting Times Dashboard](/NHS Cancer.md)
+[NHS Cancer Waiting Times Dashboard](/NHS Cancer)
 <img src="Cancer Waiting Times Screenshot.jpg"/>
 
 ---
