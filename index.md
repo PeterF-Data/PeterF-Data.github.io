@@ -8,7 +8,7 @@
 <img src="Cancer Waiting Times Screenshot.jpg"/>
 
 ---
-[SQL Project for Hypothetical Pizza Delivery Buisness](/pdf/sample_presentation.pdf)
+[SQL Project for Hypothetical Pizza Delivery Buisness](/SQL Pizza)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
