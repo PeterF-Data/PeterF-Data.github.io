@@ -2,13 +2,13 @@
 
 ---
 
-### Category Name 1 
+### Projects 
 
 [NHS Cancer Waiting Times Dashboard](/NHS Cancer)
 <img src="Cancer Waiting Times Screenshot.jpg"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[SQL Project for Hypothetical Pizza Delivery Buisness](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
