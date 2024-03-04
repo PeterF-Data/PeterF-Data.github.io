@@ -1,15 +1,14 @@
 ## Create a Power BI Dashboard Displaying Waiting Times for Cancer Patients
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** For this project, I was interested in creating a dashboard that would display the waiting times for NHS patients within England who were suspected of developing cancer. The NHS has a target that 93% of urgent suspected cancer patients should be seen within 14 days, so I designed my dashboard to highlight which trusts were missing and which were meeting the target. I found a data set on the official NHS website at: https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/monthly-prov-cwt/2021-22-monthly-provider-cancer-waiting-times-statistics/provider-based-cancer-waiting-times-for-march-2021-22-provisional (2. Two Week Wait – All Cancers (Provider Data)).
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-```javascript
-if (isAwesome){
-  return true
-}
+```Wacka
+Wacka
+I like green eggs and ham 
 ```
 
 ### 2. Assess assumptions on which statistical inference will be based
