@@ -9,7 +9,7 @@
 
 ---
 [SQL Project for Hypothetical Pizza Delivery Buisness](/SQL Pizza)
-<img src="Navicat screenshot1.jpg"/>
+<img src="Navicat screenshot 1.jpg"/>
 
 ---
 [Project 3 Title](http://example.com/)
