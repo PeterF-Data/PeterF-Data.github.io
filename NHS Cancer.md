@@ -10,7 +10,7 @@ I needed to clean and format the data before putting it into PowerBI. First I re
 
 Once I loaded the data into Power BI, I began by adding a light blue background to match the branding of the NHS. I decided that two maps were needed to visualise the data, one for % within and one for % after 14 days. I also added a vertical bar chart, so that the underperforming trusts could be easily highlighted. I set the background for all charts and slicers to white with 80% transparency. This formatting made the charts pop out from the background slightly without interfering with the overall colour theme of the dashboard. I kept a light blue formatting for everything and added an NHS trust logo so that it matched the branding used by the NHS. In a real-world situation, this dashboard would provide users with easy-to-access and visible data to determine which trusts were meeting and which were failing the 14-day target.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### Finished Dashboard
 
 <img src="Cancer Waiting Times Screenshot.jpg"/>
 
