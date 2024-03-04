@@ -18,7 +18,8 @@ Orders by address
 Orders by delivery/pick up
 For the points above, I needed to join the orders, item & address tables. Table aliases were given (o = orders, i = item & a = address) the columns below were created, excluding the average order value, as this could be calculated later on in PowerBI. The left join command was then used to include the item_id from the item table with the orders table, and again for the add_id from the address table. 
 
-```SELECT
+```
+SELECT
 	o.order_id,
 	i.item_price,
 	o.quantity,
@@ -42,7 +43,8 @@ The second part of the brief requested that a dashboard be made for inventory ma
 
 First, I needed to calculate the total quantity by ingredient, this could be done by taking the number of orders and then multiplying by the ingredient quantity in the recipe. I started by calculating the number of orders by pizza. I selected item_id from the orders table and item_id and sku from the item table. I used the SUM function to calculate quantity from the orders table as order_quantity. I also needed to join the item_id from the items table to the orders table via the left join command to only display items that had been ordered. Finally, I used GROUP BY to display item_id, sku & item_name in a row with the value of the SUM function as order quantity.
 
-```SELECT
+```
+SELECT
 o.item_id,
 i.sku,
 i.item_name,
@@ -54,7 +56,8 @@ group by o.item_id,i.sku,i.item_name
 
 This gave the number of orders by pizza. The next stage was to break this down into pizzas by ingredients by using the recipe table. I added a LEFT JOIN to the code on sku in the items table and recipe_id from the recipe table. I needed to add columns for ing_id and quantity (as recipie_quantity) from the recipe table, so these were added to the SELECT statement. These columns also needed to be added to the GROUP BY statement. I now needed to add the ingredient names. A new LEFT JOIN was created to join ing_id from the recipe table to the ingredient table. The ing_name column was also added to both SELECT and GROUP BY. Next, I needed the columns for ingredient weight and price. This table is already joined, so I added ing.ing_weight & ing.ing_price to my SELECT & GROUP BY statements.
 
-```SELECT
+```
+SELECT
 o.item_id,
 i.sku,
 i.item_name,
@@ -81,7 +84,8 @@ ing.ing_price
 
 Next, I needed to multiply order quantity by recipe quantity. For this, I had to create a sub query, as the order quantity was already within a SUM function. I did this by adding parentheses at the beginning and end of my statement, naming the query written so far as S1. Now, with a new SELECT statement, I selected the columns I needed from the s1 query and could perform my calculations. The ordered weight was calculated as order quantity * recipe quantity and unit cost as ing_price / ing_weight. To calculate the ingredient cost I now copy and pasted the two sums for ordered weight and unit cost, placed them with parentheses and * them by one another.
 
-```SELECT
+```
+SELECT
 s1.item_name,
 s1.ing_id,
 s1.ing_name,
@@ -121,7 +125,8 @@ FROM (SELECT
 
 I now needed to create a database for stock management so, I created a new view named stock 1. I needed to calculate the total weight ordered, inventory amount and inventory remaining per ingredient. First, I selected ing_name and then used the SUM function to produce the ordered weight. As I used the SUM function, I also had to add GROUP BY for ing_name. This produced the ordered weight for each ingredient. Next, I needed the total weight of inventory for each ingredient which I started with. ing_id was added to GROUP BY to work as my joining key to the ingredients table. The current query was turned into a subquery called s2. The inventory table was then joined using a LEFT JOIN statement and item_id. I also needed to add the total weight in stock using ingredient quantity * ingredient weight. For this, I added ing_weight*inv.quantity as total_inv_weight below my first select statement. I also added another LEFT JOIN using ing_id from the ingredient table. Finally, I calculated the remaining weight as total_inv_weight – the ordered_weight.
 
-```SELECT 
+```
+SELECT 
 	s2.ing_name,
 	s2.ordered_weight,
 	ing.ing_weight*inv.quantity as total_inv_weight,
@@ -142,7 +147,8 @@ left join ingredient ing on ing.ing_id = s2.ing_id
 
 The third part of the brief requested that a database be made for staff management. I selected the date from the rota table, and first name, last name and hourly rate from the staff table. I added a LEFT JOIN using staff_id from the staff table. Now, I added the start and end times from the shift table by adding them into the SELECT statement and added another LEFT JOIN using staff_id from the shift table. I needed staff cost per row, which required me to calculate the number of hours within each shift and then * by the hourly rate. I used TIMEDIFF() to produce the difference between the start and end time in minutes, and then / this by 60 to get the number of hours as a decimal to be * by hourly rate.
 
-```SELECT
+```
+SELECT
 r.date,
 s.first_name,
 s.last_name,
