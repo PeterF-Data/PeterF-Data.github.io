@@ -12,7 +12,7 @@
 <img src="Navicat screenshot 1.jpg"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[make excel files and power BI for BCR-ABL One post](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
