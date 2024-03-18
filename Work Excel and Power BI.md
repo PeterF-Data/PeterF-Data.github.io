@@ -15,6 +15,7 @@ I have replaced the real data using the RANDBETWEEN and copy and replace functio
 _Database Table_
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
+_Pivot Charts_
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 3. Support the selection of appropriate statistical tools and techniques
