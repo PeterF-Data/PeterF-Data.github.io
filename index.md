@@ -12,7 +12,7 @@
 <img src="Navicat screenshot 1.jpg"/>
 
 ---
-[make excel files and power BI for BCR-ABL One post](http://example.com/)
+[Quality Monitoring Database & Dashboard for Laboratory Role](/Work Excel and Power BI)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
