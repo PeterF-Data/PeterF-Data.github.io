@@ -13,10 +13,10 @@ I was now able to copy and paste this data output directly into my new database 
 I have replaced the real data using the RANDBETWEEN and copy and replace functions, to ensure no sensitive information is shown here.
 
 _Database Table_
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="QM Excel Data.jpg"/>
 
 _Pivot Charts_
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="QM Excel Graphs.jpg"/>
 
 ### 3. Support the selection of appropriate statistical tools and techniques
 
