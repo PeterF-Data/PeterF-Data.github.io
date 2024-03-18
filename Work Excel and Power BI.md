@@ -22,6 +22,7 @@ _Pivot Charts_
 
 For the final part of this project, I decided to create a dashboard in Power BI as it is more suited for reports than Excel. I fed the database into Power BI and simplified the graphs showing only the number of samples, machine usage & pass and fail rates as these were the main values needed for the annual report. I added filters for the operator, Fiscal year & year, quarter, month & day so the user could create the exact report they needed. I have used a generic title here to protect the original data set.  
 
+_Power BI Dashboard_
 <img src="QM Power BI.jpg"/> 
 
 
