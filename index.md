@@ -16,25 +16,6 @@
 <img src="QM Power BI.jpg"/>
 
 ---
-
-### Scientific Computing with Python - FreeCodeCamp 
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-### Data Analysis with Python - FreeCodeCamp
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
+[Automating Laboratory Data Input Task](http://example.com/)
 
 
