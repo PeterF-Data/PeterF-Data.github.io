@@ -16,6 +16,6 @@
 <img src="QM Power BI.jpg"/>
 
 ---
-[Automating Laboratory Data Input](/Data Input)
+[Automating Laboratory Data Entry](/Data Entry)
 
 
