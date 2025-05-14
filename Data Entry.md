@@ -8,15 +8,15 @@ The data entry task involved going into every patient on the LIMS, changing the 
 
 ### 2. Converting my Stages into a Python Script
 
-I needed to convert my notes into a format that could work in Python. The script needed to first select the patient identifier from the template and search for this in the LIMS. Once within the patient file, the stage would be moved to complete on a drop down menu and the script would go back to the Excel document to acquire the run number. I used pyautogui.position() to produce the positions for mouse clicks, pyautogui.press to press keys, pyautogui.click to click the mouse and pyautogui.hotkey for key combinations. I used a picture of one the buttons and the pyautogui.moveTo command to find it on the screen.  The command pyautogui.getWindowsWithTitle was used to switch between the LIMS and my template. I also imported the time library, so I could add a 0.5 second gap between commands to ensure the script didnt run faster than the programs would allow.    
+I needed to convert my notes into a format that could work in Python. The script needed to first select the patient identifier from the template and search for this in the LIMS. Once within the patient file, the stage would be moved to complete on a drop-down menu, and the script would go back to the Excel document to acquire the run number. I used pyautogui.position() to produce the positions for mouse clicks, pyautogui.press to press keys, pyautogui.click to click the mouse, and pyautogui.hotkey for key combinations. I used a picture of a button and the pyautogui.moveTo command to find it on the screen.  The command pyautogui.getWindowsWithTitle was used to switch between the LIMS and my template. I also imported the time library, so I could add a 0.5 second gap between commands to ensure the script didn't run faster than the programs would allow.    
 
 ### 3. Adding Features
 
-I wanted to add a safety feature, in case the script needed to be switched off suddenly. Luckily, pyautogui has one built in. Adding the line pyautogui.FAILSAFE = True means the script can be switched off by simply moving the mouse to the top left corner of the screen. I used a for loop to repeat the script for 93 patients as they are performed in batches of this size. I added a user input stage at the end that required the user to state if they wanted to continue after 93 loops to ensure it didnt run indefinetly.   
+I wanted to add a safety feature, in case the script needed to be switched off suddenly. Luckily, pyautogui has one built in. Adding the line pyautogui.FAILSAFE = True means the script can be switched off by simply moving the mouse to the top left corner of the screen. I used a for loop to repeat the script for 93 patients, as they are performed in batches of this size. I added a user input stage at the end that required the user to state if they wanted to continue after 93 loops to ensure it didn't run indefinitely.   
 
 ### 4. The Code 
 
-The code I produced can be seen below and has saved many hours or work time for me and my colleagues.
+The code I produced can be seen below and has saved many hours of work for me and my colleagues.
 
 ```
 import pyautogui
